@@ -1,0 +1,35 @@
+{
+
+    "manifest_version": 2,
+    "name": "Clima Hoje",
+    "version": "2.2.2",
+  
+    "description": "Consulta para previsão de tempo em cidades brasileiras",
+    "homepage_url": "https://github.com/ViniciusRio/clima-hoje",
+  
+    "icons": {
+      "48": "icons/icon_cloud.svg",
+      "96": "icons/icon_cloud.svg"
+    },
+
+    "permissions": [
+        "activeTab",
+        "geolocation"
+      ],
+    
+      "background": {
+        "scripts": [
+              "clima_hoje/js/jquery-3.4.1.min.js",
+              "clima_hoje/node_modules/chosen-js/chosen.jquery.js",
+              "clima_hoje/prettydate/dist/prettydate.js",
+              "clima_hoje/script.js"
+            ]
+      },
+
+    "browser_action": {
+        "default_icon": "icons/icon_cloud.svg",
+        "default_title": "Clima Hoje",
+        "default_popup": "clima_hoje/index.html"
+    }
+  
+  }

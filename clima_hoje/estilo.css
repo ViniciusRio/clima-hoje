@@ -1,0 +1,43 @@
+body {
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    padding: 10px;
+
+}
+
+.seletores {
+    margin-top: 10px;
+}
+
+.menu {
+    border-radius: 8px;
+    position: absolute;
+    margin-top: 10px;
+    top: 0px;
+    left: 0px;
+}
+.clima {
+    background: rgba(255, 255, 255, 0.6);
+    margin: 100px 50px 50px 50px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.icon_grande {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.cidade_titulo {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.numeros {
+    font-size: 40px;
+}
+
+

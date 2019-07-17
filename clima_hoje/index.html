@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Clima Hoje</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="node_modules/chosen-js/chosen.min.css">
+  <link rel="stylesheet" href="node_modules/chosen-js/chosen.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="container menu">
+    <div class="row">
+      <div class="col">
+        <button class="btn btn-light btn-block" type="button" id="btn_estado_cidade">
+          Selecionar Localização
+        </button>
+      </div>
+      <div class="col">
+        <button class="btn btn-info btn-block" type="button" id="btn_localizacao">
+          Localização Automática
+        </button>
+      </div>
+    </div>
+
+    <div class="row seletores">
+      <div class="form-group col" id="div_estado">
+        <select class="form-control chosen-select" id="select_estado"></select>
+      </div>
+      <div class="form-group col" id="div_cidade">
+        <select class="form-control chosen-select" id="select_cidade"></select>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="clima container-fluid">
+    <h1 id="title_cidade"></h1>
+    <div id="ul_desc_clima">
+      <img id="img_icon" class="icon_grande rounded mx-auto d-block"></img>
+      <p id="li_desc_clima" class="observacao text-center"></p>
+
+      <h2 class="text-center">
+        <span id="li_desc_temp"></span>°
+        <span id="h1_title_cidade"></span>
+      </h2>
+
+      <div class="row">
+        <div class="col text-center">
+          <h5>Sensação térmica </h5>
+          <span class="numeros">
+            <span id="li_sensacao" class="numeros"></span>°
+          </span>
+        </div>
+        <div class="col text-center">
+          <h5>Umidade</h5>
+          <span class="numeros">
+              <span id="li_umidade"></span>%
+          </span>
+        </div>
+      </div>
+      <div class="text-right">
+        <small id="li_atualizacao" class="text-muted"></small>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="node_modules/chosen-js/chosen.jquery.js"></script>
+  <script src="prettydate/dist/prettydate.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
