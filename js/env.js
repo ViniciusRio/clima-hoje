@@ -1,2 +1,0 @@
-var googleMapsApiKey ='';
-var apixuKey ='';
