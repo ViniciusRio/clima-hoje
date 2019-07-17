@@ -29,10 +29,10 @@
     </div>
 
     <div class="row seletores">
-      <div class="form-group col" id="div_estado">
+      <div class="form-group col" id="estado">
         <select class="form-control chosen-select" id="select_estado"></select>
       </div>
-      <div class="form-group col" id="div_cidade">
+      <div class="form-group col" id="cidade">
         <select class="form-control chosen-select" id="select_cidade"></select>
       </div>
     </div>
@@ -40,32 +40,31 @@
 
 
   <div class="clima container-fluid">
-    <h1 id="title_cidade"></h1>
-    <div id="ul_desc_clima">
+    <div id="clima">
       <img id="img_icon" class="icon_grande rounded mx-auto d-block">
-      <p id="li_desc_clima" class="observacao text-center"></p>
+      <p id="ds_clima" class="observacao text-center"></p>
 
       <h2 class="text-center">
-        <span id="li_desc_temp"></span>°
-        <span id="h1_title_cidade"></span>
+        <span id="temperatura"></span>°
+        <span id="title_cidade"></span>
       </h2>
 
       <div class="row">
         <div class="col text-center">
           <h5>Sensação térmica </h5>
           <span class="numeros">
-            <span id="li_sensacao" class="numeros"></span>°
+            <span id="sensacao" class="numeros"></span>°
           </span>
         </div>
         <div class="col text-center">
           <h5>Umidade</h5>
           <span class="numeros">
-              <span id="li_umidade"></span>%
+              <span id="umidade"></span>%
           </span>
         </div>
       </div>
       <div class="text-right">
-        <small id="li_atualizacao" class="text-muted"></small>
+        <small id="atualizacao" class="text-muted"></small>
       </div>
     </div>
   </div>
