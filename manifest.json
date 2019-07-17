@@ -19,7 +19,7 @@
     
       "background": {
         "scripts": [
-              "/js/jquery-3.4.1.min.js",
+              "js/jquery-3.4.1.min.js",
               "js/chosen-js/chosen.jquery.js",
               "js/prettydate/dist/prettydate.js",
               "js/script.js"
@@ -27,7 +27,7 @@
       },
 
     "browser_action": {
-        "default_icon": "js/icons/icon_cloud.svg",
+        "default_icon": "img/icons/icon_cloud.svg",
         "default_title": "Clima Hoje",
         "default_popup": "index.html"
     }
