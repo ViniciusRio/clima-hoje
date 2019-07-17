@@ -1,20 +1,14 @@
 # clima-hoje
 Extensão firefox para clima. Informe um estado e uma cidade brasileira ou simplesmente permita a indentificação da geolocalização e *voilà*
 
-
 ## Começando
 
-Clone o repositório e fique atento as partes que mudam: css e js.
+Clone o repositório e fique para alterar API KEY
 
 ### Pré-requisitos
 
-Aqui usamos: Jquery, Chosen, Bootstrap e Pretty Date
+Aqui usamos: Jquery, Chosen, Bootstrap, Pretty Date e Google Maps
 
-npm install chosen-js
-
-```
-npm install chosen-js
-```
 ## Contribuindo
 
 Leia e para mais detalhes e se achar necessários faça seu Pull Request <3 (contribuindo is coming)
