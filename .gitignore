@@ -1,5 +1,5 @@
 # Don't track content of these folders
-js/env.js
+*env.js
 # Compiled source #
 ###################
 *.com
