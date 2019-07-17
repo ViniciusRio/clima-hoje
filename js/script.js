@@ -1,17 +1,13 @@
 $(".chosen-select").chosen({ no_results_text: "Ops, nada encontrado!" });
-//select cidade
 var $select_cidade = $("#select_cidade");
-//select estado
 var $select_estado = $("#select_estado");
-//div cidade
 var $div_cidade = $("#div_cidade");
 var $div_estado = $("#div_estado").hide();
 //esconte por padrão a listagem do clima
 var $clima = $("#ul_desc_clima").hide();
 
 function mapaBackground(lat, lon) {
-  var key = 'API_KEY';
-  var url = `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lon}&zoom=11&size=500x500&scale=1&sensor=false&key=${key}`;
+  var url = `https://maps.googleapis.com/maps/api/staticmap?center=${lat},${lon}&zoom=11&size=500x500&scale=1&sensor=false&key=${googleMapsApiKey}`;
   return url
 }
 
@@ -44,9 +40,10 @@ $(function() {
     navigator.geolocation.getCurrentPosition(function success(position) {
       localStorage.setItem("lat", position.coords.latitude);
       localStorage.setItem("long", position.coords.longitude);
+      
       $.ajax({
         url:
-          "http://api.apixu.com/v1/forecast.json?key=API_KEY&q=" +
+          `http://api.apixu.com/v1/forecast.json?key=${apixuKey}&q=` +
           localStorage.getItem("lat") +
           "," +
           localStorage.getItem("long"),
@@ -118,7 +115,7 @@ $(function() {
       .val();
     //requisição do clima
     $.ajax({
-      url: "http://api.apixu.com/v1/forecast.json?key=API_KEY&q=ds_cidade&lang=pt".replace(
+      url: `http://api.apixu.com/v1/forecast.json?key=${apixuKey}&q=ds_cidade&lang=pt`.replace(
         "ds_cidade",
         ds_cidade
       ),

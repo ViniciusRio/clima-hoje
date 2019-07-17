@@ -1,2 +1,0 @@
-var googleApi;
-var apixuApi;

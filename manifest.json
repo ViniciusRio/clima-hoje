@@ -8,8 +8,8 @@
     "homepage_url": "https://github.com/ViniciusRio/clima-hoje",
   
     "icons": {
-      "48": "icons/icon_cloud.svg",
-      "96": "icons/icon_cloud.svg"
+      "48": "img/icons/icon_cloud.svg",
+      "96": "img/icons/icon_cloud.svg"
     },
 
     "permissions": [
@@ -19,17 +19,17 @@
     
       "background": {
         "scripts": [
-              "clima_hoje/js/jquery-3.4.1.min.js",
-              "clima_hoje/node_modules/chosen-js/chosen.jquery.js",
-              "clima_hoje/prettydate/dist/prettydate.js",
-              "clima_hoje/script.js"
+              "/js/jquery-3.4.1.min.js",
+              "js/chosen-js/chosen.jquery.js",
+              "js/prettydate/dist/prettydate.js",
+              "js/script.js"
             ]
       },
 
     "browser_action": {
-        "default_icon": "icons/icon_cloud.svg",
+        "default_icon": "js/icons/icon_cloud.svg",
         "default_title": "Clima Hoje",
-        "default_popup": "clima_hoje/index.html"
+        "default_popup": "index.html"
     }
   
   }
