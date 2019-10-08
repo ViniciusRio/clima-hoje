@@ -5,6 +5,12 @@ Extensão firefox para clima. Informe um estado e uma cidade brasileira ou simpl
 
 Clone o repositório e fique para alterar API KEY
 
+## Visual
+Almejado: 
+![papel esboço](img/papel.jpg)
+
+Alcançado:
+![alcançado img](img/layout.jpg)
 ### Pré-requisitos
 
 Aqui usamos: Jquery, Chosen, Bootstrap, Pretty Date e Google Maps
@@ -12,6 +18,7 @@ Aqui usamos: Jquery, Chosen, Bootstrap, Pretty Date e Google Maps
 ## Contribuindo
 
 Leia e para mais detalhes e se achar necessários faça seu Pull Request <3 (contribuindo is coming)
+Entre em contato quando a sempre que achar necessário
 
 ## Autor
 
