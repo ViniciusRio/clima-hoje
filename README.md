@@ -25,4 +25,4 @@ Esse projeto é licenciado pelo MIT - veja aqui [LICENSE.md]
 
 * Repositório não existiria sem a motivação de três pessoas: - [Rafael Brasil](https://github.com/Daimioo), [Éverton Inocêncio](https://github.com/hewerthomn) e [Gustavo Gualbano](https://github.com/gsgualbano)
 * Fui motivado a escrever essa extensão devido a existencia do primo próximo: [Dólar Hoje](https://github.com/Daimioo/dolarhoje)
-* Sempre em atualização
+* Atualizando sempre que possível
